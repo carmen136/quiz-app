@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: lightyellow;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+header {
+    background: palevioletred;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+main {
+    margin: 120px 40px 80px;
+}
+
+.card {
+    background-color: white;
+    position: relative;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bookmark {
+    border: 2px solid lightgrey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+
+.lamp {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 13px;
+    top: 6px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tag-items {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+footer {
+    background-color: palevioletred;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+}
