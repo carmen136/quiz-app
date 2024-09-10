@@ -9,16 +9,15 @@
 </head>
 <body>
     <header>
-        <h1 id="title">✨Quiz App</h1>
+        <h1 id="title">Quiz App</h1>
     </header>
     <main>
         <section class="card">
-            <div class="bookmark">
-                <div class="lamp">💡</div> 
-            </div>
+            <button type="button" aria-label="bookmark" name="bookmark" value="bookmark" class="bookmark saved">
+                <?xml version="1.0" encoding="UTF-8"?><svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" stroke-width="1.5"><path d="M5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L13.0815 17.1953C12.4227 16.7717 11.5773 16.7717 10.9185 17.1953L5 21Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
             <h2>What property flips the axes in flexbox?</h2>
-            <a href="#show-answer">Show Answer</a>
-            <a href="#hide-answer">Hide Answer</a>
+            <button class="answer-button" type="button" name="showAnswer" value="showAnswer">Show Answer</button>
             <p class="answer">flex-direction</p>
             <div class="tags">
             <p class="tag-items">#html</p>
@@ -27,12 +26,11 @@
             </div>
         </section>
         <section class="card">
-            <div class="bookmark">
-                <div class="lamp">💡</div> 
-            </div>
+            <button type="button" aria-label="bookmark" name="bookmark" value="bookmark" class="bookmark">
+                <?xml version="1.0" encoding="UTF-8"?><svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" stroke-width="1.5"><path d="M5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L13.0815 17.1953C12.4227 16.7717 11.5773 16.7717 10.9185 17.1953L5 21Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>          
             <h2>Lorem Ipsum dolor sit?</h2>
-            <a href="#show-answer">Show Answer</a>
-            <a href="#hide-answer">Hide Answer</a>
+            <button class="answer-button" type="button" name="showAnswer" value="showAnswer">Show Answer</button>
             <p class="answer">Lorem it.</p>
             <div class="tags">
                 <p class="tag-items">#html</p>
@@ -41,24 +39,23 @@
             </div>
         </section>
         <section class="card">
-        <div class="bookmark">
-            <div class="lamp">💡</div> 
-        </div>
-        <h2>Lorem Ipsum dolor sit?</h2>
-        <a href="#show-answer">Show Answer</a>
-        <a href="#hide-answer">Hide Answer</a>
-        <p class="answer">Lorem it.</p>
-        <div class="tags">
-            <p class="tag-items">#css</p>
-            <p class="tag-items" >#positioning</p>
-            <p class="tag-items">#html</p>
-         </div>
-    </section>
+            <button type="button" aria-label="bookmark" name="bookmark" value="bookmark" class="bookmark saved">
+                <?xml version="1.0" encoding="UTF-8"?><svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" stroke-width="1.5"><path d="M5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L13.0815 17.1953C12.4227 16.7717 11.5773 16.7717 10.9185 17.1953L5 21Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>       
+            <h2>Lorem Ipsum dolor sit?</h2>
+            <button class="answer-button" type="button" name="showAnswer" value="showAnswer">Show Answer</button>
+            <p class="answer">Lorem it.</p>
+            <div class="tags">
+                <p class="tag-items">#css</p>
+                <p class="tag-items" >#positioning</p>
+                <p class="tag-items">#html</p>
+            </div>
+        </section>
     </main>
     <footer>
-        <a class="link active" href="index.html">Homepage</a>
-        <a class="link" href="bookmarks.html">Bookmarks</a>
-        <a class="link" href="profile.html">Profile</a>
+        <a class="link active" accesskey="h" href="index.html">Homepage</a>
+        <a class="link" accesskey="b" href="bookmarks.html">Bookmarks</a>
+        <a class="link" accesskey="l" href="profile.html">Profile</a>
     </footer>
     
 </body>
