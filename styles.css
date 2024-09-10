@@ -77,11 +77,20 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .link {
     text-decoration: none;
     color: #222;
     font-size: 20px;
+    padding-top: 10px;
+}
+
+
+.active {
+    background-color: gold;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
