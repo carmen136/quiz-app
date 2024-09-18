@@ -1,0 +1,31 @@
+
+.card__button-answer {
+    border: none; 
+    font-family: var(--font-family);
+    color: var(--font-color1);
+    border-radius: var(--border-radius-norm);
+    width: var(--width-norm);
+    background-color: var(--button-bg);
+    font-size: 1.1rem;
+    color: var(--font-color1);
+    padding: 8px 0;
+}
+
+
+
+/* .button--show-hide {
+    border: none; 
+    font-family: var(--font-family);
+    color: var(--font-color1);
+    border-radius: var(--border-radius-norm);
+    width: var(--width-norm);
+    background-color: var(--button-bg);
+    font-size: 1.1rem;
+    color: var(--font-color1);
+    padding: 8px 0;
+} */
+
+
+
+
+

@@ -1,0 +1,14 @@
+
+header {
+    background: var(--HF-bg);
+    width: var(--width-norm);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--font-color1);
+}

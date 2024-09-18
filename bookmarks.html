@@ -5,56 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Homepage</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 
 </head>
 <body>
     <header>
-        <h1 id="title">✨Quiz App</h1>
+        <h1 id="title">Quiz App</h1>
     </header>
     <main>
         <section class="card">
-            <button type="button" aria-label="bookmark" name="bookmark" value="bookmark" class="bookmark saved">
+            <button type="button" aria-label="bookmark" data-js="bookmark1" name="bookmark" value="bookmark" class="bookmark">
                 <?xml version="1.0" encoding="UTF-8"?><svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" stroke-width="1.5"><path d="M5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L13.0815 17.1953C12.4227 16.7717 11.5773 16.7717 10.9185 17.1953L5 21Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             </button>
             <h2>What property flips the axes in flexbox?</h2>
-            <button class="answer-button" type="button" name="showAnswer" value="showAnswer">Show Answer</button>
-            <p class="answer">flex-direction</p>
-            <div class="tags">
-            <p class="tag-items">#html</p>
-            <p class="tag-items">#flexbox</p>
-            <p class="tag-items">#css</p>
+            <button class="button--show-hide" type="button" data-js="showAnswer1" name="showAnswer" value="showAnswer">Show Answer</button>
+            <button class="button--show-hide hidden" type="button" data-js="hideAnswer1" name="hideAnswer" value="hideAnswer">Hide Answer</button>
+            <p class="answer hidden" data-js="answer1">flex-direction</p>
+            <div class="tag">
+            <p class="tag-item">#html</p>
+            <p class="tag-item">#flexbox</p>
+            <p class="tag-item">#css</p>
             </div>
         </section>
         <section class="card">
-            <button type="button" aria-label="bookmark" name="bookmark" value="bookmark" class="bookmark">
+            <button type="button" aria-label="bookmark" data-js="bookmark2" name="bookmark" value="bookmark" class="bookmark">
                 <?xml version="1.0" encoding="UTF-8"?><svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" stroke-width="1.5"><path d="M5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L13.0815 17.1953C12.4227 16.7717 11.5773 16.7717 10.9185 17.1953L5 21Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             </button>          
             <h2>Lorem Ipsum dolor sit?</h2>
-            <button class="answer-button" type="button" name="showAnswer" value="showAnswer">Show Answer</button>
-            <p class="answer">Lorem it.</p>
-            <div class="tags">
-                <p class="tag-items">#html</p>
-                <p class="tag-items">#flexbox</p>
-                <p class="tag-items">#css</p>
+            <button class="button--show-hide" type="button" data-js="showAnswer2" name="showAnswer" value="showAnswer">Show Answer</button>
+            <button class="button--show-hide hidden" type="button" data-js="hideAnswer2" name="hideAnswer" value="hideAnswer">Hide Answer</button>
+            <p class="answer hidden" data-js="answer2">Lorem it.</p>
+            <div class="tag">
+                <p class="tag-item">#html</p>
+                <p class="tag-item">#flexbox</p>
+                <p class="tag-item">#css</p>
             </div>
         </section>
         <section class="card">
-            <button type="button" aria-label="bookmark" name="bookmark" value="bookmark" class="bookmark saved">
+            <button type="button" aria-label="bookmark" data-js="bookmark3" name="bookmark" value="bookmark" class="bookmark">
                 <?xml version="1.0" encoding="UTF-8"?><svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" stroke-width="1.5"><path d="M5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L13.0815 17.1953C12.4227 16.7717 11.5773 16.7717 10.9185 17.1953L5 21Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             </button>       
             <h2>Lorem Ipsum dolor sit?</h2>
-            <button class="answer-button" type="button" name="showAnswer" value="showAnswer">Show Answer</button>
-            <p class="answer">Lorem it.</p>
-            <div class="tags">
-                <p class="tag-items">#css</p>
-                <p class="tag-items" >#positioning</p>
-                <p class="tag-items">#html</p>
+            <button class="button--show-hide" type="button" data-js="showAnswer3" name="showAnswer" value="showAnswer">Show Answer</button>
+            <button class="button--show-hide hidden" type="button" data-js="hideAnswer3" name="hideAnswer" value="hideAnswer">Hide Answer</button>
+            <p class="answer hidden" data-js="answer3">Lorem it.</p>
+            <div class="tag">
+                <p class="tag-item">#css</p>
+                <p class="tag-item" >#positioning</p>
+                <p class="tag-item">#html</p>
             </div>
         </section>
     </main>
     <footer>
         <a class="link" accesskey="h" href="index.html">Homepage</a>
-        <a class="link active" accesskey="b" href="bookmarks.html">Bookmarks</a>
+        <a class="link link--active" accesskey="b" href="bookmarks.html">Bookmarks</a>
         <a class="link" accesskey="l" href="profile.html">Profile</a>
     </footer>
     

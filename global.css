@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --body-bg: #ebedef;
+    --HF-bg: #5d6d7e;
+    --card-bg: #fff;
+    --special-bg: #f8baea;
+    --button-bg: #7d91a3;
+    --tag-bg: lightgray;
+    --font-color1: #fff;
+    --font-color2: #000;
+    --font-color__answer: #5d6d7e;
+    --font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --border-radius-norm: 5px;
+    --width-norm: 100%;
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--body-bg);
+    font-family: var(--font-family);
+}
+
+
+.hidden {
+    display: none;
+}
