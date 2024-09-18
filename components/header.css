@@ -7,7 +7,7 @@ header {
     z-index: 1;
 }
 
-#title {
+.header__title {
     text-align: center;
     text-transform: uppercase;
     color: var(--font-color1);
