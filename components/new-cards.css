@@ -1,0 +1,32 @@
+
+.subtitle {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.newCard__form {
+    display: grid;
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid rgb(37, 38, 41);
+    border-radius: 5px;
+    font-family: var(--font-family);
+}
+
+
+button {
+    margin-top: 0.5rem;
+    background-color: var(--special-bg);
+    color: var(--font-color__answer);
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+  }
+
+
+small {
+    text-align: right;
+}
+  
